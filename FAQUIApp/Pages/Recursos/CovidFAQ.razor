@@ -17,14 +17,14 @@
 
     @if (questionList == null)
     {
-        <p><em>Loading...</em></p>
+        <p><em>Cargando...</em></p>
     }
     else
     {
         @foreach (var question in questionList)
         {
             <div class="card border-dark">
-                <h3 class="card-header">
+                <h3 class="card-header text-center">
                     @question.Question
                 </h3>
                 <div class="card-body">
